@@ -57,6 +57,7 @@ function startCount() {
         timedCount();
         document.getElementById("sec").style.display="none";
         document.getElementById("button").innerHTML="Referesh";
+        document.getElementById("text").innerHTML="Press the Refresh button to set different time for the Animation"
         }
         else{
         	alert("enter no. of seconds")
